@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "Shinyaigeek/gatsby-plugin-react-i18next-redirect-sandbox",
+  pathPrefix: "gatsby-plugin-react-i18next-redirect-sandbox",
   plugins: [
     {
       resolve: "gatsby-source-filesystem",
@@ -15,7 +15,6 @@ module.exports = {
         languages: ["ja", "en"],
         defaultLanguage: "ja",
         siteUrl: "https://pages.github.com/Shinyaigeek/gatsby-plugin-react-i18next-redirect-sandbox",
-        redirect: false,
         i18nextOptions: {
           interpolation: {
             escapeValue: false,
