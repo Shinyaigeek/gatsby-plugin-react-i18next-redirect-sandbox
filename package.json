@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-plugin-react-i18next-redirect-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Shinyaigeek/gatsby-plugin-react-i18next-redirect-sandbox.git",
+  "author": "shinyaigeek <PhilisPaxil@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.32.4",
+    "gatsby-plugin-react-i18next": "../gatsby-plugin-react-i18next/",
+    "gatsby-source-filesystem": "^2.11.0",
+    "i18next": "^19.9.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.8"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "typescript": "^4.2.2"
+  }
+}
